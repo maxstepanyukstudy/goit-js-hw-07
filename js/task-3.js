@@ -12,7 +12,7 @@ function formatName(name) {
   const nameTrim = name.trim();
 
   if (nameTrim.length === 0) {
-    return "Anonymous"
+    return "Anonymous";
   }
-  return nameTrim
+  return nameTrim;
 }
